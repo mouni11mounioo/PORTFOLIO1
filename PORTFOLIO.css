@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color:orangered;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color:greenyellow;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+@media (max-width: 768px) {
+    /* Add responsive styles for smaller screens here */
+    header {
+        font-size: 1.2em;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
